@@ -1,3 +1,5 @@
+// Quality USSR Anthem by Ömer Arda Kaya for all comrades
+
 #include "pitches.h"
 
 int buzzerPin = 11;
