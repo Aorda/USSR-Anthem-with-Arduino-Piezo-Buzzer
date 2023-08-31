@@ -38,7 +38,7 @@ int noteDurations[] = {
 
 void setup() {
   for (int thisNote = 0; thisNote < sizeof(melody) / 2; thisNote++) {
-    int noteDuration = 2000 / noteDurations[thisNote];
+    int noteDuration = 1020 / noteDurations[thisNote];
     tone(buzzerPin, melody[thisNote], noteDuration);
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
